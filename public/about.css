@@ -1,0 +1,102 @@
+html {
+  scroll-behavior: smooth;	
+}
+body{
+	background: #141E30;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+}
+
+#aboutbutton{
+	color:red
+}
+
+nav{
+	box-shadow: 0 0 10px black;
+	border-bottom : solid 1px red;
+}
+
+#aboutfirst{
+	
+	box-shadow: 0 0 10px black;
+	color: white;
+}
+
+.buttonmargin{
+	margin-bottom:3px;
+	margin-top:3px;
+}
+
+#textbox{
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+
+#myphoto{
+	padding-top: 5px;
+	border-radius:75% 75% 75% 75%;  
+   	width:200px;
+	height:200px;
+}
+
+#inpagelinks{
+	padding-top:40px;
+}
+
+.companylogo{
+	border-radius:5% 5% 5% 5%;  
+   	width:200px;
+	height:150px;
+}
+
+#sacimg{
+	border-radius:5% 5% 5% 5%;  
+   	width:250px;
+	height:150px;
+}
+
+#name{
+	padding-bottom: 5px;
+}
+
+
+
+#internship{
+	margin-top:210px;
+}
+
+#campusinvolvement{
+	margin-top:210px;
+}
+
+#skills{
+	margin-top:210px;
+	margin-bottom: 5px;
+}
+#internheading{
+	border-bottom: solid 1px red;
+	text-align: center;
+	color: white;
+}
+.customshadow{
+	box-shadow: 0 0 10px black;
+}
+
+.hidden {
+display: none;
+}
+
+.textlightgrey{
+	color: rgb(204, 204, 204)
+}
+
+a:hover {
+  color: red !important;
+  box-shadow: 0 0 2px black;
+}
+
+button:hover {
+  color: red !important;
+}
+

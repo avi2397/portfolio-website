@@ -18,7 +18,7 @@ $(document).ready(function typeWriter() {
     setTimeout(typeWriter, speed);
   }
 	
-	$("#appear1").hide().removeClass("hidden").fadeIn(1000);
+	$("#heart").hide().removeClass("hidden").fadeIn(1000);
 	$("#instruction").hide().removeClass("hidden").fadeIn(1000);
 	
 

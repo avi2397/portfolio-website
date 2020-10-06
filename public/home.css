@@ -6,6 +6,29 @@ body{
 	color: white;
 }
 
+@keyframes beat{
+	0%{
+		transform: translate3d(0px, 0px, 0px);
+		
+		animation-timing-function: ease-in; 
+	}
+	50%{
+		transform: translate3d(0px, 20px, 0px);
+		
+		animation-timing-function: ease-out;
+	}
+	100%{
+		transform: translate3d(0px, 0px, 0px);
+	}
+}
+
+#heart{
+	color: red;
+	font-size: 50px;
+	animation: beat 2s infinite;
+}
+
+
 #instruction{
 	color: grey;
 }
@@ -17,6 +40,7 @@ body{
 #textcontainer{
 	padding-top: 200px;
 }
+
 
 nav{
 	box-shadow: 0 0 10px black;

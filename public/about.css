@@ -8,6 +8,47 @@ body{
 	
 }
 
+#namesmall{
+	
+	width: 60%;
+}
+#name{
+	
+	width: 45%;
+}
+
+#aboutsparasmall{
+	
+	width: 100%;
+}
+
+#aboutspara{
+	width: 100%;
+}
+
+.jumbotron {
+	margin-top: 30px;
+	padding-top: 450px;
+	background-image: url("images/portfolio2.jpg");
+	background-size: cover;
+	box-shadow: 0px 0px 10px black;
+}
+
+.textonimg{ 
+   color: white; 
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+}
+
+#jumbolbutton{
+	margin-left: 14px;
+}
+
+#jumbombutton{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
 #aboutbutton{
 	color:red
 }
@@ -17,37 +58,17 @@ nav{
 	border-bottom : solid 1px red;
 }
 
-#aboutfirst{
-	
+#inpagelinks a{
 	box-shadow: 0 0 10px black;
 	color: white;
-}
-
-.buttonmargin{
-	margin-bottom:3px;
-	margin-top:3px;
-}
-
-#textbox{
-	padding-top: 70px;
-	padding-bottom: 50px;
-}
-
-#myphoto{
-	padding-top: 5px;
-	border-radius:75% 75% 75% 75%;  
-   	width:200px;
-	height:200px;
-}
-
-#inpagelinks{
-	padding-top:40px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .companylogo{
-	border-radius:5% 5% 5% 5%;  
-   	width:auto;
-	height:80px;
+	
+   	max-width: 100%;
+	max-height: 100%;
 }
 
 #sacimg{
@@ -56,28 +77,27 @@ nav{
 	height:80px;
 }
 
-#name{
-	padding-bottom: 5px;
-}
-
-
-
 #internship{
+	background-color: white;
 	margin-top:210px;
+	width: 100%;
 }
 
 #campusinvolvement{
+	background-color: white;
 	margin-top:210px;
+	width: 100%;
 }
 
 #skills{
+	background-color: white;
 	margin-top:210px;
+	width: 100%;
 	margin-bottom: 5px;
 }
 #internheading{
 	border-bottom: solid 1px red;
 	text-align: center;
-	color: white;
 }
 .customshadow{
 	box-shadow: 0 0 10px black;
@@ -91,12 +111,88 @@ display: none;
 	color: rgb(204, 204, 204)
 }
 
-a:hover {
+nav a:hover {
   color: red !important;
   box-shadow: 0 0 2px black;
 }
 
-button:hover {
+#inpagelinks a:hover {
   color: red !important;
 }
+
+#aboutspara{
+	animation: slide-left 2s;
+}
+
+#aboutsparasmall{
+	animation: slide-left 2s;
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+	  width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+	width: 100%;
+  }
+}
+
+.doubleborder{
+	border-left: solid 1px black;
+	border-right: solid 1px black;
+}
+
+#test{
+	text-align:center;
+}
+
+.companyimg{
+	width: auto;
+    height: 80px;
+}
+
+#relaso:hover{
+	box-shadow: 0 0 5px black;
+	border: solid 1px black;
+	transition: background-color 0.5s linear;
+	background-color: #e6e6ff;
+}
+
+#dassault:hover{
+	box-shadow: 0 0 5px black;
+	border: solid 1px black;
+	transition: background-color 0.5s linear;
+	background-color: #e6e6ff;
+}
+
+#embibe:hover{
+	transition: background-color 0.5s linear;
+	box-shadow: 0 0 5px black;
+	border: solid 1px black;
+	background-color: #e6e6ff;
+}
+
+#sac:hover{
+	transition: background-color 0.5s linear;
+	box-shadow: 0 0 5px black;
+	border: solid 1px black;
+	background-color: #e6e6ff;
+}
+
+#secy:hover{
+	transition: background-color 0.5s linear;
+	box-shadow: 0 0 5px black;
+	border: solid 1px black;
+	background-color: #e6e6ff;
+}
+
+.desgheading{
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 

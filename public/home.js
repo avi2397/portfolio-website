@@ -8,6 +8,7 @@ var speed = 100;
 $(document).ready(function typeWriter() {
 	
 	if(i==0) {
+		$("#topNav").hide().removeClass("hidden").slideDown(1000);
 		$("#hello").hide().removeClass("hidden").fadeIn(1000);
 		i++;
 	}	

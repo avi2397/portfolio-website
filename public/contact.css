@@ -15,17 +15,27 @@ nav{
 	color:red
 }
 
-.companylogo{
-   	width:70px;
-	height:70px;
-}
-
 .customshadow{
 	box-shadow: 0 0 10px black;
 }
 
+.flaticon-facebook-logo{
+	color:black;
+}
+
+.flaticon-linkedin-logo{
+	color: black;
+	
+}
+
+i:hover{
+	transition: color 0.5s linear;
+	color: #b30000;
+}
+
 #git{
 	margin-top: 200px;
+	background-color: white;
 }
 
 h1{
@@ -33,20 +43,10 @@ h1{
 	border-bottom: solid 1px red;
 }
 
-.shadow-on-hover:hover{
-	box-shadow: 0 0 5px black;
-}
-
-li a:hover {
-  color: red !important;
-  box-shadow: 0 0 2px black;
-}
 
 .hidden {
 display: none;
 }
-
-
 
 
 

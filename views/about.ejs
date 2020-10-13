@@ -2,8 +2,8 @@
 <html>
 	<head>
 		<title>Portfolio</title>
-		<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" ></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" ></script>
+		<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" ></script>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 		<link rel="stylesheet" href="/about.css">
 		<script type="text/javascript" src="/about.js" ></script>
@@ -16,7 +16,7 @@
 		
 		
 		
-		<nav class="navbar navbar-expand text-white" id="topNav">
+		<nav class="hidden navbar navbar-expand text-white" id="topNav">
 			
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav">
@@ -40,255 +40,129 @@
 					</div>
 			</nav>
 		
-		<div class="container-sm" id="textbox">
-		
-		<div class="row">
-			
-			<div class="col-sm-2"></div>
-				<div class="col-sm-8 text-justify rounded" id="aboutfirst">
-					
-					
-					<div class="text-center">
-  						<img src="images/my-passport-photo.jpg" id="myphoto">
-					</div>
-					
-					<h1 class="text-center" id="name">
-						
-					</h1>
-					
-					<p class="hidden" id="aboutspara">
-						I am a Pre-Final year student at IIT Kharagpur, interested and experienced in the field of programming, and 						 				Data Science.I am a quick learner and I adapt to changes quite easily. I love to work in a competitive environment which pushes 						me to take the extra mile and helps me in making myself a better person.
-					</p>	
-				</div>	
-			<div class="col-lg-2"></div>
+		<div class="container-sm" id="jumbo">
+			<div class="jumbotron hidden" id="jm">
+  			
+				<h1 class="textonimg d-none d-md-block" id="name"></h1>
 				
-				
-			
-		</div>
+				<p class = "textonimg d-md-none" id="namesmall">
+				</p>
 
-		
-	</div>
-		
-	<div class="container-sm hidden" id="inpagelinks">
-		
-		<div class="row">
-			
-			<div class="buttonmargin col-sm-3 rounded customshadow text-center" >
-				<a href="#internship">
-					<button type="button" class="btn btn-lg text-white">Internships</button>
-				</a>
+				<h5 class="textonimg d-none d-md-block" id="aboutspara">
+					I am a 4th year student at IIT Kharagpur, interested and experienced in the field of programming, and Data Science
+				</h5>	
 				
-				
+				<p class = "textonimg d-md-none" id="aboutsparasmall">
+					I am a 4th year student at IIT Kharagpur, interested and experienced in the field of programming, and Data Science
+				</p>
+		  
+			  <div class="row">
+				<a class="btn btn-md textonimg" href="#internship" role="button" id="jumbolbutton">Internships</a>
+				 <a class="btn btn-md textonimg" href="#campusinvolvement" role="button" id="jumbombutton">Campus Involvements</a>
+				 <a class="btn btn-md textonimg" href="#skills" role="button">Skills</a>
+			  </div>
 			</div>
-			<div class="col-sm-1 rounded " >
-				
-				
-			</div>
-			<div class="buttonmargin col-sm-3 text-justify rounded customshadow text-center">	
-				<a href="#campusinvolvement">
-					<button type="button" class="btn btn-lg text-white">Campus Involvements</button>
-				</a>
-			</div>	
-			<div class="col-sm-1 rounded" >
-				
-				
-			</div>
-			<div class="buttonmargin col-sm-3 rounded customshadow text-center">
-				<a href="#skills">
-					<button type="button" class="btn btn-lg text-white">Skills</button>
-				</a>
-			</div>
-				
-				
-			
 		</div>
-
+	
+	
 		
-	</div>	
-		
-	
-	
-	
+			
 	<div class="container-md customshadow rounded hidden" id="internship">
 		<h1 id="internheading">
 				INTERNSHIPS
-			</h1>
+		</h1>
 		
-		<div class="row">
-			
-			<div class="col-md-12 text-justify rounded">	
+	
+			<div class="row text-center">
 				
-				<div class="container-md">
+				<div class="col-md-4" id="relaso">
+					<img src="images/relaso.png" class="companyimg" >
+					<p class="font-weight-bold">
+						Software Developer Intern
+					</p>
+					<ul class="text-justify">
+						<li>Developed a robust application using JSOUP library in Java to fetch national and state wise covid-19 live data from 							www.mohfw.gov.in</li>
+						<li>Developed a web crawler application using the RSS Rome tool and JSOUP in Java to extract admissible data from 25+ news 							websites</li>
+					</ul>
+					
+				</div>	
+				<div class="col-md-4 doubleborder" id="dassault">
+					<img src="images/dassault.jpg" class="companyimg" >
+					<p class="font-weight-bold">
+						Software Developer Intern
+					</p>
+					<ul class="text-justify">
+						<li>Automated more than 80 sanity testing scenarios for Inventor cad tool and 3DxCad connector for both cloud & on-premise 							environment</li>
+						<li>Reduced the quality assurance time by 30 minutes over manual testing method; Incorporated TestNG framework for logs and 						test cases</li>
+					</ul>
+					
+				</div>	
+				<div class="col-md-4" id="embibe">
+					<img src="images/embibe.png" class="companyimg" >
+					<p class="font-weight-bold">
+						Content Managment Intern
+					</p>
+					<ul class="text-justify">
+						<li>Assessed and authored the content related to Joint Entrance Examination; worked on data cleaning for automation of metadata 						tagging</li>
+						<li>Ideated a new feature “Smart time-table” based on the maximum efficiency hours and time devoted by a student on a 								particular section</li>
+					</ul>
+				</div>	
 		
-				<div class="row">
-
-					<div class="col-md-4 rounded  text-center" >
-						<div class="text-center">
-							<a href="https://relaso.com/">
-								<img src="images/relaso.png" class="companylogo">
-							</a>
-  							
-						</div>
-						<h6 class="text-white">
-							Relaso Software Enterprise Ltd
-						</h6>
-						
-						<p class="textlightgrey">
-							Software Developer Intern 
-						</p>
-						<p class="textlightgrey">
-							(Apr'20-Jul'20)
-						</p>
-
-					</div>
-					
-					
-
-					<div class="col-md-4 text-justify rounded  text-center">	
-						<div class="text-center">
-							<a href="https://www.3ds.com/">
-								<img src="images/dassault.jpg" class="companylogo">
-							</a>
-  							
-						</div>
-						<h6 class="text-white">
-							Dassault Systemes
-						</h6>
-						<p class="textlightgrey">
-							Software Developer Intern 
-						</p>
-						<p class="textlightgrey">
-							(May'19-Jul'19)
-						</p>
-
-					</div>	
-					
-					
-
-					<div class="col-md-4 rounded  text-center">
-						<div class="text-center">
-  							<a href="https://www.embibe.com/">
-								<img src="images/embibe.png"  class="companylogo">
-							</a>
-						</div>
-						<h6 class="text-white">
-							Embibe
-						</h6>
-						<p class="textlightgrey">
-							Content Managment Intern 
-						</p>
-						<p class="textlightgrey">
-							(May'18-Jun'18)
-						</p>
-
-					</div>
-				</div>
-
-			</div>	
-		
-				
-			</div>	
-			
-					
-		</div>
+			</div>
 		
 	</div>		
 		
-		
+	
 	<div class="container-md customshadow rounded hidden" id="campusinvolvement">
 		<h1 id="internheading">
 				CAMPUS INVOLVEMENTS
-			</h1>
+		</h1>
 		
-		<div class="row">
-			
-			<div class="col-md-12 text-justify rounded">	
+	
+			<div class="row text-center">
 				
-				<div class="container-sm" >
+				<div class="col-md-6" id="sac">
+					<img src="images/sac.png" class="companyimg" >
+					<p class="desgheading">
+						Student Member -> Cordinator -> <span class="font-weight-bold">Advisor</span>
+					</p>
+					<ul class="text-justify">
+						<li>Accredited for raising sponsorship from 9 pre-eminent brands worth INR 0.3mn for 16th AAM, highest amongst all the team 						members</li>
+						<li>Spearheaded the Affinity Programme and engaged 4 new renowned brands with 40000 alumni, 15000 students and staff of IIT 							Kharagpur</li>
+					</ul>
+					
+				</div>	
+				<div class="col-md-6 doubleborder" id="secy">
+					<img src="images/kgp.png" class="companyimg" >
+					<p class="font-weight-bold">
+						Badmiton Secretary (TSG)
+					</p>
+					<ul class="text-justify">
+						<li>Elected as the Secretary Badminton Sub-Committee, Technology Students' Gymkhana by a mandate of 10000+ students of the 							Institute</li>
+						<li>Worked under the President, TSG and administered the allocated budget of INR 0.25mn for organising all the TSG badminton 						activities</li>
+					</ul>
+					
+				</div>	
 		
-				<div class="row">
-
-					<div class="col-md-6 rounded  text-center" >
-						<div class="text-center">
-							<a href="http://www.sac.iitkgp.ac.in/">
-								<img src="images/sac.png" id="sacimg" class="bg-white">
-							</a>
-  							
-						</div>
-						<h6 class="text-white">
-							Students' Alumni Cell
-						</h6>
-						
-						<p class="textlightgrey">
-							Advisor
-						</p>
-						<p class="textlightgrey">
-							(Aug'20-Present)
-						</p>
-
-					</div>
-					
-					
-
-					<div class="col-md-6 text-justify rounded  text-center">	
-						<div class="text-center">
-							<a href="http://www.gymkhana.iitkgp.ac.in/index.php">
-								<img src="images/kgp.png" class="companylogo">
-							</a>
-  							
-						</div>
-						<h6 class="text-white">
-							Technology Students' Gymkhana
-						</h6>
-						
-						<p class="textlightgrey">
-							Secretary Badminton Sub-Committee 
-						</p>
-						<p class="textlightgrey">
-							(Aug'18-Apr'19)
-						</p>
-
-					</div>	
-					
-				
-				</div>
-
-			</div>	
-		
-				
-			</div>	
-			
-					
-		</div>
+			</div>
 		
 	</div>		
 		
+	
 	<div class="container-md customshadow rounded hidden" id="skills">
 		<h1 id="internheading">
-				SKILLS
-			</h1>
+				Skills
+		</h1>
 		
-		<div class="row">
-			
-			<div class="col-md-12 text-justify rounded">	
+	
+			<div class="row text-center">
 				
-				<div class="container-sm" >
-		
-				<div class="row">
-
-					<div class="col-md-4 rounded  text-center" >
-						<div class="text-left">
-							
-							
-							
-							<h4 class="text-white">
-							Programming Languge
-							</h4>
-						</div>
-						
-						<div class="text-left textlightgrey">
-						
-							<li>
+				<div class="col-md-4" id="relaso">
+					<p class="font-weight-bold">
+						Programming Language
+					</p>
+					<ul class="text-justify">
+						<li>
 								C
 							</li>
 							<li>
@@ -306,24 +180,15 @@
 							<li>
 								HTML-CSS
 							</li>
-						</div>
-					</div>
+					</ul>
 					
-					
-
-					<div class="col-md-4 text-justify rounded  text-center">	
-						<div class="text-left">
-							
-							
-							
-  							<h4 class="text-white">
-								Softwares and Tools
-							</h4>
-						</div>
-						<div class="text-left textlightgrey">
-							
-
-							<li>
+				</div>	
+				<div class="col-md-4 doubleborder" id="dassault">
+					<p class="font-weight-bold">
+						Software and Tools
+					</p>
+					<ul class="text-justify">
+						<li>
 								MongoDb
 							</li>
 							<li>
@@ -341,23 +206,15 @@
 							<li>
 								Bootstrap
 							</li>
-						</div>		
-
-					</div>	
+					</ul>
 					
-					
-
-					<div class="col-md-4 rounded  text-center">
-						<div class="text-left">
-  							
-							<h4 class="text-white">
-								Courses
-							</h4>
-						</div>
-						<div class="text-left textlightgrey">
-							
-
-							<li>
+				</div>	
+				<div class="col-md-4" id="embibe">
+					<p class="font-weight-bold">
+						Courses
+					</p>
+					<ul class="text-justify">
+						<li>
 								Programming and Data Structures
 							</li>
 							<li>
@@ -375,20 +232,14 @@
 							<li>
 								Foundations of Entreprenuership
 							</li>
-						</div>	
-
-					</div>
-				</div>
-
-			</div>	
+					</ul>
+				</div>	
 		
-				
-			</div>	
-			
-					
-		</div>
+			</div>
 		
 	</div>		
+
+		
 		
 
 <%- include("partials/footer") %>

@@ -4,6 +4,7 @@ var speed = 75;
 var j=0;
 
 
+
 $(document).ready(function typeWriter() {
 	
 	
@@ -14,7 +15,10 @@ $(document).ready(function typeWriter() {
   }
 	
 	if(j==0){
-		$("#details").hide().removeClass("hidden").fadeIn(2000);
+		$("#details1").hide().removeClass("hidden").fadeIn(2000);
+		$("#details2").hide().removeClass("hidden").fadeIn(2000);
+		$("#topNav").hide().removeClass("hidden").slideDown(1000);
+		$("#git").hide().removeClass("hidden").slideDown(1000);
 		j++;
 	}
 	

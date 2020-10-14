@@ -128,6 +128,7 @@ nav a:hover {
 	animation: slide-left 2s;
 }
 
+
 @keyframes slide-left {
   from {
     margin-left: 100%;
@@ -141,8 +142,8 @@ nav a:hover {
 }
 
 .doubleborder{
-	border-left: solid 1px black;
-	border-right: solid 1px black;
+	border-left: solid 1px red;
+	border-right: solid 1px red;
 }
 
 #test{

@@ -33,9 +33,10 @@ $(document).ready(function startup() {
 
 	if(flag  === 0){
 		$("#topNav").hide().removeClass("hidden").slideDown(1000);
-		$("#jm").hide().removeClass("hidden").slideDown(1000);
+		$("#jm").hide().removeClass("hidden").fadeIn(1000);
+		$("#jumbobutton").hide().removeClass("hidden").fadeIn(1000);
 		flag = 1;
-		typeWriter();
+		setTimeout(typeWriter, 1000);
 	}
 
 });
